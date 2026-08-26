@@ -1,0 +1,26 @@
+{
+  "name": "flower-shop-api",
+  "version": "1.0.0",
+  "description": "A simple flower shop REST API built with Express and an in-memory store.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "flowers",
+    "rest",
+    "api",
+    "express"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
